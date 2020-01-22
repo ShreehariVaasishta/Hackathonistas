@@ -1,13 +1,9 @@
-import React from 'react';
+import withAuthentication from './withAuthentication';
+import withAuthorization from './withAuthorization';
+import withEmailVerification from './withEmailVerification';
 
-const App = () => (
-
-  <div>
-
-    <h1>App</h1>
-
-  </div>
-
-);
-
-export default App;
+export {
+  withAuthentication,
+  withAuthorization,
+  withEmailVerification,
+};
